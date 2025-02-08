@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+.promo-bar {
+    background-color: #1a365d;
+    color: #fff;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    font-size: 16px;
+    animation: slideIn 1s ease-out;
+}
+.promo-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+}
+.promo-bar h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+}
+.promo-bar p {
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #f3f4f6;
+}
+.promo-bar .countdown {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, .1);
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin: 0 15px;
+    color: #fff;
+}
+.promo-bar .buy-now {
+    background-color: #2563eb;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 0 15px;
+    transition: background-color .3s ease, transform .3s ease;
+}
+.promo-bar .buy-now:hover {
+    background-color: #3b82f6;
+    transform: translateY(-2px);
+}
+.promo-bar .buy-now.disabled {
+    background-color: #ccc;
+    color: #666;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
