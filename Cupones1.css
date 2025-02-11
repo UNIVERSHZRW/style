@@ -1,0 +1,121 @@
+
+    /* Estilo para los botones con clase "raise" */
+    .raise {
+        display: inline-block;
+        padding: 12px 24px;
+        margin: 10px;
+        font-size: 1rem;
+        color: #fff;
+        background-color: #fff; /* Azul profesional */
+        border: none;
+        border-radius: 8px; /* Bordes más redondeados */
+        cursor: pointer;
+        text-decoration: none;
+        text-align: center;
+        transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    }
+
+    .raise:hover {
+        background-color: #007bff; /* Azul más oscuro al pasar el mouse */
+        transform: translateY(-2px);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+    }
+
+    .raise img {
+        vertical-align: middle;
+        margin-right: 8px;
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Estilo para los botones con clase "raise" */
+    .raise1 {
+        display: inline-block;
+        padding: 12px 24px;
+        margin: 10px;
+        font-size: 1rem;
+        color: #fff;
+        background-color: #fff; /* Azul profesional */
+        border: none;
+        border-radius: 8px; /* Bordes más redondeados */
+        cursor: pointer;
+        text-decoration: none;
+        text-align: center;
+        transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    }
+
+    .raise1:hover {
+        background-color: #fff; /* Azul más oscuro al pasar el mouse */
+        transform: translateY(-2px);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+    }
+
+    .raise1 img {
+        vertical-align: middle;
+        margin-right: 8px;
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Estilo para el botón con clase "button3" */
+    .button3 {
+        background-color: #28a745; /* Verde profesional */
+        border: 2px solid transparent;
+        color: #fff;
+        outline: 0;
+        padding: 12px 24px; /* Tamaño más estándar */
+        border-radius: 8px; /* Bordes más redondeados */
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    }
+
+    .button3:hover {
+        background-color: #218838; /* Verde más oscuro al pasar el mouse */
+        transform: translateY(-2px);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+    }
+
+    /* Estilo para el botón con clase "button4" */
+    .button4 {
+        background-color: #6c757d; /* Gris profesional */
+        border: 1px solid transparent;
+        color: #fff;
+        outline: 0;
+        padding: 12px 24px; /* Tamaño más estándar */
+        border-radius: 8px; /* Bordes más redondeados */
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    }
+
+    .button4:hover {
+        background-color: #5a6268; /* Gris más oscuro al pasar el mouse */
+        transform: translateY(-2px);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+    }
+
+    /* Estilo para el botón con clase "button" */
+    .button {
+        background-color: #dc3545; /* Rojo profesional */
+        border: none;
+        color: #fff;
+        outline: 0;
+        padding: 12px 24px; /* Tamaño más estándar */
+        border-radius: 8px; /* Bordes más redondeados */
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    }
+
+    .button:hover {
+        background-color: #c82333; /* Rojo más oscuro al pasar el mouse */
+        transform: translateY(-2px);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+    }
+
+
+
+    #cuponDisplay{font-weight:700;color:#2e7d32;margin:20px}.button100{padding:10px 20px;background-color:#007bff;color:#fff;border:none;border-radius:5px;cursor:pointer;margin:10px}.button100:hover{background-color:#0056b3}.button100:disabled{background-color:#ccc;cursor:not-allowed}input{margin:10px;padding:8px;border:1px solid #ccc;border-radius:5px}#passwordDisplay{font-size:1.2rem;font-weight:700;color:#0acc00;margin-top:20px;display:none}.gear-container{display:none;justify-content:center;align-items:center;flex-direction:column;margin-top:20px}.gear{width:50px;height:50px;border:6px solid #007bff;border-top-color:transparent;border-radius:50%;animation:spin 1.5s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
